@@ -99,4 +99,4 @@ $messagebody += "`n"
 $messagebody += "`_____________________________________________________________________________________`n"
 $messagebody += $CustomSnapObjects | sort-object Server | select Server, vCenter, SRMDataStore | out-String
 sendmail $messagebody $messagesub
-} #testing github!
+}
